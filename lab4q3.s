@@ -36,9 +36,9 @@ endSort			b		main			; when done, goes back to the Loop
 
 done			b		done
 				
-			area 	lab4q3, data, readwrite
-a          		dcd 	44,-56,3,65,-8,32,6,-87,54,65,87,32,65 
-endOfArray 		space 	1 
+			area 		lab4q3, data, readwrite
+a          		dcd 		44,-56,3,65,-8,32,6,-87,54,65,87,32,65 
+endOfArray 		space 		1 
 
-stack			space	#0x00		; empty stack
+stack			space		#0x00		; empty stack
 			end
