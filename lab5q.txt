@@ -1,0 +1,40 @@
+lab5:
+
+; work in progress
+
+
+2) 9 stack cells * 4 bytes = 36 stack bytes  <== not too sure now, keep getting random values
+
+3)		
+			could be like this
+		|====|
+		| x  | <== x = r1 + 10
+		|----|
+		| y	 | <== y = r1 - 10
+		|====|
+		| lr | <== sp = fp
+		|----| 
+		| fp | 
+		|----|
+		| r2 |	
+		|----|
+		| r1 | <==
+		|----|
+		| r0 | <==
+		|====| 
+		|	 | <== return value
+		|====|
+		|    | <== parameter
+		|====|	
+4) Fact(3) 
+		-> Calls Fact(n-1) = Fact(2)
+		-> Calls Fact(n-1) = Fact(1)
+		-> 1 <= 1 = ret
+		
+		= 3 function calls total?
+		
+		
+7) 0xB4 = (180)^10 and every time FACT is called needs 9 cells which is 180/36 = 5 
+	Thus can only call FACT 5 times.    <== Highly doubt this is right
+	
+8)
