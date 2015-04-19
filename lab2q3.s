@@ -2,7 +2,7 @@
 		  entry
 		
 		  mov r4, #2	; gives r4 dummy value
-q3		add	r0, r4, r4, lsr #128	
+q3		  add	r0, r4, r4, lsr #128	
 		
 		  b 	done
 		
@@ -12,6 +12,6 @@ q4b		;   confused with this one, need help
 q5		;	
 		
 
-      done	
+                  done	
 		
 		  end
