@@ -9,7 +9,7 @@ q1a		  addpl		r2, r1, r0, lsl #5
 		  ; subtract content of register r3 from 0x990 put results in r4 only if C is set and 
 		  ; Z is clear
 
-q1b		  rsbcsne	r4, r3, #0x990	; not too sure
+q1b		  rsbhi		r4, r3, #0x990	; not too sure
 
 		  ; clear 2nd least significant byte of r5 ie store (00000000)^2 and put in r6
 		  ; cpsr must be affected
