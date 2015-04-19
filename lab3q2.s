@@ -1,6 +1,12 @@
 		area lab3q2, code, readonly
 		entry
 		
+		;;
+		;;Now I'm really tired, this is probably wrong, will change when i wake up in the
+		; morning. Can't do numbers at night
+		;;;
+		;;;
+		
 q2a		;	0101 00	0 0100 0 0001 0010 0000 0 00 1 000				
 
 
