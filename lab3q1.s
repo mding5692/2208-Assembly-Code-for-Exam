@@ -15,7 +15,7 @@ q1b		  rsbcsne	r4, r3, #0x990
 		  ; cpsr must be affected
 
 q1c		  movs		r6, r5, lsl #8		; this is probably wrong, im too tired to care		
-		
+q1c2		  ands		r6, r5, #0x00000000	; probably the right way: BIC and AND are similar			
 		
 		
 		  end
