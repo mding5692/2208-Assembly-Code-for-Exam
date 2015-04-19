@@ -8,9 +8,9 @@
 			; which swaps around the position in the stack
 			
 			; boilerplate code: points r0 to a and r1 to endOfArray
-main			adr		r0, a
+			adr		r0, a
 			adr 	r1, endOfArray
-			adr		sp, stack		; points to stack, maybe wrong, i need to do better with stacks
+			adr		sp, stack		; points to stack, maybe wrong, i need to do better 									;with stacks
 			mov		r3, #0			; uses r3 as a count
 			; loads the values into the stack
 load			add		r3,	r3, #4		; r3 is incremented
