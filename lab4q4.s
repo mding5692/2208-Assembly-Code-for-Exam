@@ -3,7 +3,7 @@
 
 		; boilerplate code: points r0 to a and r1 to endOfArray
 			adr		r0, a
-			adr 	r1, endOfArray
+			adr 		r1, endOfArray
 			adr		sp, stack		; points to stack
 			mov		r3, #0			; uses r3 as a count
 			mov		r6, #0			; uses r6 as a count
@@ -38,9 +38,9 @@ sortUsed		cmp		r6, #0			; compares r5 with 0
 
 done			b		done
 				
-			area 	lab4q3, data, readwrite
-a          		dcd 	44,-56,3,65,-8,32,6,-87,54,65,87,32,65 
-endOfArray 		space 	1 
+			area 		lab4q3, data, readwrite
+a          		dcd 		44,-56,3,65,-8,32,6,-87,54,65,87,32,65 
+endOfArray 		space 		1 
 
-stack			space	#0x00		; empty stack
+stack			space		#0x00		; empty stack
 			end
