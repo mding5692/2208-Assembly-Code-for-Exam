@@ -4,7 +4,7 @@
 		  ; adds  32 times of the content of registers r0 and the content
 		  ; of r1 only if N is clear. Store the result in register r2 
 
-q1a		  addpl		r2, r1, r0, lsr #5	
+q1a		  addpl		r2, r1, r0, lsl #5	
 		
 		  ; subtract content of register r3 from 0x990 put results in r4 only if C is set and 
 		  ; Z is clear
